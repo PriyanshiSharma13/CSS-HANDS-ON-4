@@ -1,0 +1,126 @@
+.header{
+    background-image: linear-gradient(to right,  rgb(139, 38, 38),   rgba(13, 194, 13, 0.89), rgba(218, 218, 24, 0.836));
+    text-decoration: underline;
+    text-align: center;
+}
+#h2{
+    color: purple;
+}
+.guide{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(214, 233, 122, 0.966);
+    border: 2px ridge grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.guide ul{
+    color: rgb(18, 18, 168);
+    margin: auto;
+}
+.lorem{
+    height: max-content;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px ridge rgb(60, 132, 173) ;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(190, 137, 243);
+}
+.box{
+    width: 30%;
+    height: 9vh;
+    margin-bottom: 2px;
+    border: 2px ridge rgb(78, 6, 78);
+    box-shadow: 1px 1px 1px rgb(65, 61, 61);
+    border-radius: 10px;
+    font-weight: 400;
+    color: rgb(226, 223, 202);
+    text-align: center;
+}
+.jee{
+    background-image: linear-gradient(to right, rgb(223, 20, 20), rgb(253, 238, 27), rgb(223, 20, 20));
+    text-decoration: underline darkslategrey;
+    height: 35px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.achievers{
+    border: 2px ridge darkgreen;
+    background-image: radial-gradient(blue, rgb(71, 171, 202),rgba(34, 151, 34, 0.781));
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    width: 200px;
+    margin: 70px 0 70px 0;
+    line-height: 22px;
+    box-sizing: border-box;
+    border: 2px ridge maroon;
+    border-radius: 12px;
+    background-color: rgba(150, 233, 212, 0.897);
+    font-weight: bolder;
+    color: brown;
+    text-decoration: underline rgb(255, 0, 0);
+    text-align: center;
+}
+.best{
+    height: 40px;
+    margin: 20px 0 20px 0;
+    background-color: orchid;
+    color: darkred;
+    font-size: 22px;
+    text-align: center;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 10vh 20vh;
+    gap: 12px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+.g1{
+    background-color: rgb(34, 219, 74);
+    grid-column: 1 / 4;
+}
+.g2{
+    background-color: rgb(23, 79, 232);
+    grid-column: 4 / 7;
+    font-size: 18px; 
+}
+.g3{
+    background-color: rgb(58, 199, 255);
+    grid-column: 7 / 10;
+    font-size: 18px;
+}
+.g4{
+    background-color: black;
+    grid-column: 10;
+    grid-row: 1 /7;
+    width: 80px;
+    text-decoration: underline;
+    font-size: 18px; 
+}
+.g5{
+    background-color: orange;
+    grid-column: 1 / 10;
+    grid-row: 2 /7;
+    font-size: 30px;
+}
+.footer{
+    height: 25px;
+    background-color: rgb(127, 238, 255);
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+#h3{
+    color: purple;
+}
